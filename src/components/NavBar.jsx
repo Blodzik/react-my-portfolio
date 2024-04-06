@@ -13,7 +13,7 @@ export const NavBar = () => {
             } else {
                 setScrolled(false);
             }
-        }
+        };
 
         window.addEventListener('scroll', onScroll);
         console.log(scrolled);
@@ -23,7 +23,7 @@ export const NavBar = () => {
 
     const updateActiveLink = (value) => {
         setActiveLink(value);
-    }
+    };
     
     return (
         <div className={scrolled ? 'navbar scrolled' : 'navbar' }>
