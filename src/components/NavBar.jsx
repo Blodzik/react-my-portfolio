@@ -23,7 +23,7 @@ export const NavBar = () => {
 
     const updateActiveLink = (value) => {
         setActiveLink(value);
-    };
+    }
     
     return (
         <div className={scrolled ? 'navbar scrolled' : 'navbar' }>
