@@ -1,0 +1,84 @@
+body {
+    margin-top: 200px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 80px;
+    color: #EDF5E1
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hey {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.proffesion {
+    color: #379683;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.education {
+    font-size: 18px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.resume {
+    background-color: white;
+    color: #05386B;
+}
+
+.resume span {
+    margin-left: 10px;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+    margin-left: 4px;
+}
+
+.bi {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; 
+    font-size: 26px;
+    display: inline-block;
+}
+
+.bi:hover {
+    transform: scale(1.35);
+}
+
+.header-image {
+    animation: updown 3s linear infinite;
+    width: 300px;
+}
+
+@keyframes updown {
+    0% {
+        transfrom: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transfrom: translateY(-20px);
+    }
+}
