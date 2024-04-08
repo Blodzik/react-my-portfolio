@@ -1,0 +1,67 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5CDB95;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    height: 80px;
+    padding: 0 40px;
+    z-index: 1000;
+}
+
+.scrolled {
+    background-color: #8EE4AF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 75px;
+}
+
+.name {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+a {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #EDF5E1;
+}
+
+a::after {
+    content: '.';
+    color: #EDF5E1;
+}
+
+a.active {
+    color: white;
+}
+
+button {
+    background-color: #05386B;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: rgb(250, 201, 110);
+}
+
+a,button {
+    transition: color 0.3s ease; 
+}
